@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { gameContext } from "../../context/GameContext";
 import { scoreContext } from "../../context/ScoreContext";
-import { play } from "../../services/Play";
+import { play } from "../../services/play";
 
 import style from "./OptionButton.module.css"
 
