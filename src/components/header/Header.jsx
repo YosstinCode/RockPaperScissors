@@ -1,13 +1,13 @@
-import React from "react";
 import Score from "../score/Score";
+import style from "./Header.module.css"
 
 const Header = () => {
   return (
-    <header>
-      <h1>
-        <span>Rock</span>
-        <span>Paper</span>
-        <span>Scissors</span>
+    <header className={style.header}>
+      <h1 className={style.headerTitle}>
+        <span className="header__title__rock">Rock</span>
+        <span className="header__title__paper">Paper</span>
+        <span className="header__title__scissors">Scissors</span>
       </h1>
       <Score />
     </header>

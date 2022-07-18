@@ -1,0 +1,25 @@
+:root {
+  --ScissorsColorGradient1: hsl(39, 89%, 49%);
+  --ScissorsColorGradient2: hsl(40, 84%, 53%);
+
+  --PaperColorGradient1: hsl(230, 89%, 59%);
+  --PaperColorGradient2: hsl(230, 89%, 65%);
+
+  --RockColorGradient1: hsl(349, 71%, 52%);
+  --RockColorGradient2: hsl(349, 70%, 56%);
+
+  --LizardColorGradient1: hsl(261, 73%, 60%);
+  --LizardColorGradient2: hsl(261, 72%, 63%);
+
+  --CyanColor1: hsl(189, 59%, 53%) ;
+  --CyanColor2: hsl(189, 58%, 57%);
+
+  --DarkText: hsl(229, 25%, 31%);
+  --ScoreText: hsl(229, 64%, 46%);
+  --HeaderOutline: hsl(217, 16%, 45%);
+
+  --backgroundColor1: hsl(214, 47%, 23%) ;
+  --backgroundColor2: hsl(237, 49%, 15%) ;
+
+  --white: #fff;
+}

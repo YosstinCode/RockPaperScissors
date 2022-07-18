@@ -1,0 +1,27 @@
+.optionSelected{
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.optionSelectedText{
+    text-align: center;
+    color: var(--white);
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+@media (min-width:800px) {
+    .optionSelected{
+        order: 1;
+        width: 14rem;
+    }
+
+    .optionSelectedText{
+        font-size: 1.5rem;
+    }
+}

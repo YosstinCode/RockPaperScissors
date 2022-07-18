@@ -1,13 +1,14 @@
-import React, { useContext, useState } from "react";
+import { useContext } from "react";
 import { scoreContext } from "../../context/ScoreContext";
+import style from "./Score.module.css"
 
 const Score = () => {
   const {score} = useContext(scoreContext)
 
   return (
-    <div>
-      <span>Score</span>
-      <span>{score}</span>
+    <div className={style.score}>
+      <span className={style.scoreText}>Score</span>
+      <span className={style.scoreCount}>{score}</span>
     </div>
   );
 };

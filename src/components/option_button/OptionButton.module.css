@@ -1,0 +1,53 @@
+@import "../../Theme/Theme.module.css";
+
+.optionButton {
+  width: 5.5rem;
+  height: 5.5rem;
+  background-color: var(--white);
+  border-style: solid;
+  border-width: 12px;
+  border-radius: 50%;
+}
+
+[data-option="Paper"] {
+  position: relative;
+  border-color: var(--PaperColorGradient2);
+  box-shadow: 0 5px 0 0 var(--PaperColorGradient1),
+    inset 0 4px 0 0 rgb(0, 0, 0, 0.2);
+    z-index: 20;
+}
+
+[data-option="Rock"] {
+  position: relative;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  border-color: var(--RockColorGradient2);
+  box-shadow: 0 5px 0 0 var(--RockColorGradient1),
+    inset 0 4px 0 0 rgb(0, 0, 0, 0.2);
+    z-index: 20;
+}
+
+[data-option="Scissors"] {
+  grid-column: 1/3;
+  grid-row-start: 2;
+  border-color: var(--ScissorsColorGradient2);
+  box-shadow: 0 5px 0 0 var(--ScissorsColorGradient1),
+    inset 0 4px 0 0 rgb(0, 0, 0, 0.2);
+    z-index: 20;
+}
+
+.optionImg {
+  width: 2.5rem;
+}
+
+@media (min-width:800px) {
+  .optionButton{
+    width: 7rem;
+    height:7rem ;
+    order: 2;
+  }
+
+  .optionImg{
+    width: 3rem;
+  }
+}
